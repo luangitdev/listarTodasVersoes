@@ -42,7 +42,7 @@ for SERVIDOR in $LISTA; do
          
     RESULTADO=$(ssh $SERVIDOR "echo '$SENHA' | sudo -S $SCRIPT_PATH")
     echo "$RESULTADO"
-    echo "--------------------------------------------------------------------"
+    echo "---------------------------------------------------------------------"
 done
 
 # Finaliza o SSH Agent após o uso.
